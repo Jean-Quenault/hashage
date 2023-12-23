@@ -1,30 +1,26 @@
-# Comparateur de mot de passe avec l'algorithme bcrypt
+# Password Comparator with bcrypt Algorithm
 
-Ce projet est un exemple simple de script Python pour démontrer l'utilisation de l'algorithme bcrypt pour hasher et vérifier les mots de passe. Il utilise la bibliothèque `bcrypt` pour offrir une méthode sécurisée non obsolète (en date de 2023) de traitement des mots de passe.
+This project is a simple Python script example to demonstrate the use of the bcrypt algorithm for hashing and verifying passwords. It utilizes the `bcrypt` library to offer a secure, non-obsolete (as of 2023) method of password processing.
 
 ## Installation
 
-Pour utiliser ce script, vous devez avoir Python installé sur votre système. De plus, le module `bcrypt` est requis. Vous pouvez l'installer en utilisant pip :
+To use this script, you must have Python installed on your system. Additionally, the `bcrypt` module is required. You can install it using pip:
 
 `python3 install bcrypt`
 
-## Utilisation
-Le script fonctionne en deux étapes :
+## Usage
+The script operates in two steps:
 
-1. **Hasher un mot de passe** entré par l'utilisateur.
-2. **Vérifier** si un second mot de passe entré correspond au hash du premier.
+1. **Hash a password** entered by the user.
+2. **Verify** if a second entered password matches the hash of the first.
 
-Exécutez le script dans un terminal ou un environnement Python. Suivez les instructions à l'écran pour entrer et vérifier les mots de passe.
+Run the script in a terminal or Python environment. Follow the on-screen instructions to enter and verify the passwords.
 
-## Fonctionnalités
+## Features
 
-- **Hashage de mot de passe** : Utilise `bcrypt` pour créer un hash sécurisé du mot de passe.
-- **Vérification de mot de passe** : Compare un mot de passe entré avec le hash stocké pour confirmer s'ils correspondent.
+- **Password Hashing**: Uses `bcrypt` to create a secure hash of the password.
+- **Password Verification**: Compares an entered password with the stored hash to confirm if they match.
 
-## Références
+## References
 
-Pour plus d'informations sur le hashage, le salage et l'encryption, vous pouvez consulter l'article suivant : [Encryption vs Hashing vs Salting](https://www.pingidentity.com/fr/resources/blog/post/encryption-vs-hashing-vs-salting.html).
-
-## Licence
-
-Ce projet est distribué sous la Licence MIT.
+For more information on hashing, salting, and encryption, you can refer to the following article: [Encryption vs Hashing vs Salting](https://www.pingidentity.com/fr/resources/blog/post/encryption-vs-hashing-vs-salting.html).
